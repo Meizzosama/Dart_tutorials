@@ -1,0 +1,108 @@
+ int number;
+  number = 50;
+  int number2;
+  number2 = 40;
+  int result;
+  result = number + number2;
+  print(result);
+
+**********************************
+int num1;
+  int num2;
+  int num3;
+  num1 = 10;
+  num2 = 20;
+  num3 = 30;
+  int result;
+  result = (num1 + num2) * num3;
+  print(result);
+**********************************
+// Write Program to Multiply two Floating Point Numbers.
+  double num1;
+  double num2;
+
+  num1 = 5.25;
+  num2 = 2.4;
+
+  double result;
+  result = (num1 * num2);
+  print(result);
+***************************
+ /*int num1;
+  int num2;
+  int sum;
+  int subtraction;
+  int multiplication;
+  double divide;
+
+ num1 = 30;
+  num2 = 50;
+  sum = num1 + num2;
+  subtraction = num2 - num1;
+  multiplication = num1 * num2;
+  divide = num2 / num1;
+  print(sum);
+  print(subtraction);
+  print(multiplication);
+  print(divide);*/
+**********************************
+ int x;
+  x = 12;
+  int y;
+  y = 15;
+
+  print('before swapping');
+  print('value of x: $x');
+  print('value of y: $y');
+
+  x = x + y; //12+15=37
+  y = x - y; //37-15=12
+  x = x - y; //37-12=15
+  //x=15,y=12;
+
+  print('after swapping');
+  print('value of x: $x');
+  print('value of y: $y');
+***************************************
+
+  //feet to meter conversion
+  double feet = 20;
+  double meter, km;
+  meter = feet / 3;
+  km = meter / 1000;
+  print('meters $meter');
+  print('kilometers: $km');
+
+**************************
+void main() {
+  double celsius;
+  double fahrenheit = 50;
+  celsius = (fahrenheit - 32) * 5 / 9;
+  //Write Program to convert farenheit to celcius.
+  print('the value in celsius: $celsius');
+  //Write Program to convert celcius to farenheit
+  fahrenheit = (celsius * 9 / 5) + 32;
+  print('the value in fahrenheit: $fahrenheit');
+}
+**************************************************
+//Write a Program that convert hours into minutes.
+  double hours = 60;
+  double minutes;
+  minutes = hours * hours;
+  print('time in minutes: $minutes');
+*************************************
+void main() {
+  //About Boolean Data Type
+  int num1 = 10;
+  int num2 = 10;
+  bool isEven;
+  bool result = true;
+  bool result1 = true;
+  isEven = num2 / num1 == 1;
+  result = num2 / 2 == 5;
+  result1 = num1 / 2 == 5;
+  print(result);
+  print(result1);
+  print(isEven);
+}
+****************
