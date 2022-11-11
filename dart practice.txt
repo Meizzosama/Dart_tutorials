@@ -149,3 +149,12 @@ void main() {
   data = {'Pakistan', 'Zindabad'};
   print(data);
 }
+*************************
+void main() {
+  var data1;
+  var data2;
+  data1 = {1, 2, 3};
+  data2 = {'babar', 'rizwan', 'haris'};
+  print(data1);
+  print(data2);
+}
