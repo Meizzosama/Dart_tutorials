@@ -144,3 +144,8 @@ void main() {
   pers.sitDown();
 }
 *************************************
+void main() {
+  var data;
+  data = {'Pakistan', 'Zindabad'};
+  print(data);
+}
