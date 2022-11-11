@@ -116,3 +116,31 @@ void main() {
   print(pers.name);
 }
 ******************************************
+mixin Agility {
+  var speed = 10;
+  void sitDown() {
+    print('Sitting Down.....');
+  }
+}
+
+class Mammal {
+  void breathe() {
+    print('Breath in...Breath out..');
+  }
+}
+
+class Person extends Mammal with Agility {
+  String name;
+  int age;
+  Person(this.name, this.age);
+}
+
+void main() {
+  final pers = Person('Moxi', 21);
+  print(pers.name);
+  pers.breathe();
+  print(pers.speed);
+  pers.breathe();
+  pers.sitDown();
+}
+*************************************
