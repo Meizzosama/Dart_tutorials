@@ -106,3 +106,13 @@ void main() {
   print(isEven);
 }
 ****************
+class Person {
+  String name;
+  int age;
+  Person(this.name, this.age);
+}
+void main() {
+  final pers = Person('Moxi', 21);
+  print(pers.name);
+}
+******************************************
